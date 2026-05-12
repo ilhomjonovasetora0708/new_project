@@ -128,4 +128,29 @@ header {
              border-radius: 10px;
              cursor: pointer;
              font-weight: bold;
-         }
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+}
+
+.light-mode {
+    background: #ffffff;
+    color: black;
+}
+
+.light-mode .card {
+    background: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    } 
+}
