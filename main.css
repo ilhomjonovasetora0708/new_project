@@ -103,4 +103,29 @@ header {
                 }
         
                 .card:hover {
-                    transform: translateY(-10px);         }
+                    transform: translateY(-10px);        
+     
+     }
+         form {
+             max-width: 500px;
+             margin: auto;
+             display: flex;
+             flex-direction: column;
+             gap: 15px;
+         }
+    
+         input,
+         textarea {
+             padding: 15px;
+             border: none;
+             border-radius: 10px;
+         }
+    
+         form button {
+             padding: 15px;
+             border: none;
+             background: #38bdf8;
+             border-radius: 10px;
+             cursor: pointer;
+             font-weight: bold;
+         }
